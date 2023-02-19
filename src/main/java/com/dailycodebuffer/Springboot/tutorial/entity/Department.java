@@ -18,7 +18,17 @@ import javax.validation.constraints.Size;
 
 import org.hibernate.validator.constraints.Length;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+
 @Entity
+//@Data
+//@NoArgsConstructor
+//@AllArgsConstructor
+//@Builder
 public class Department {
 
 	@Id
